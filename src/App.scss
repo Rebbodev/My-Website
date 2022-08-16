@@ -1,0 +1,83 @@
+div.mainsec {
+    width: calc(100% - 4rem);
+    max-width: 900px;
+
+    margin-top: 10rem;
+    margin-inline: auto;
+
+    scroll-margin: 200px;
+
+    div.maintext {
+        display: flex;
+        align-items: center;
+        gap: 6rem;
+
+
+        font-size: 5rem;
+        font-weight: 800;
+
+        @media (max-width: 575px) {
+            flex-direction: column-reverse;
+            align-items: flex-start;
+            gap: 3rem;
+        }
+
+
+        div.subtext {
+            word-spacing: 1px;
+
+            font-size: 1.43rem;
+            color: #808080;
+            display: flex;
+            gap: 0.8rem;
+            font-weight: 500;
+            user-select: none;
+
+
+            div.sideline {
+                background-color: #9d49e2;
+                width: 0.4rem;
+                height: 4rem;
+            }
+
+        }
+
+        img {
+            width: 12rem;
+            border-radius: 1.8rem;
+            user-select: none;
+
+            &:hover {
+                outline: 5px solid rgb(42, 42, 42);
+            }
+        }
+    }
+}
+
+div.skills {
+    width: calc(100% - 4rem);
+    max-width: 900px;
+
+    margin-inline: auto;
+    margin-top: 9rem;
+
+    p.text {
+        font-size: 2rem;
+        font-weight: 800;
+        width: fit-content;
+    }
+}
+
+div.skillblocks {
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+
+    gap: 2ch;
+    flex-wrap: wrap;
+    margin-top: 2ch;
+}
+
+div.preFooter {
+    margin-bottom: 15rem;
+}

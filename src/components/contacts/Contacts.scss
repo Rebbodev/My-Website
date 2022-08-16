@@ -1,0 +1,167 @@
+div.contacts {
+    display: flex;
+    width: calc(100% - 7rem);
+    max-width: 930px;
+    margin-inline: auto;
+    margin-top: 7rem;
+
+}
+
+div.contactbox {
+    width: calc(100% - 1rem);
+    max-width:785px;
+
+    display: flex;
+    border-radius: 0.7rem;
+    background-color: rgb(20, 20, 20);
+    gap: calc(100% - 33rem);
+
+    margin-top: 4rem;
+
+    transition: all 0.4s;
+
+    @media (max-width: 960px) {
+        transform: translateX(-26px);
+    }
+
+    @media (max-width: 774px) {
+        flex-direction: column-reverse;
+    }
+
+
+    &:hover {
+        box-shadow: -6px 16px 10px rgba(9, 9, 10, 0.514);
+        transform: translateX(10px);
+    }
+
+    img.mypfp-contact {
+        align-self: center;
+        width: 10rem;
+        border-radius: 79px;
+
+        @media (max-width: 774px) {
+            margin-top: 16px;
+        }
+
+        &:hover {
+            box-shadow: 0px 10px 10px rgb(32, 39, 46);
+        }
+    }
+
+}
+
+div.contact-text {
+    display: flex;
+    align-items: center;
+    gap: 1ch;
+
+    margin-block: 20px;
+    margin-inline: 13px;
+    
+    @media (max-width: 602px) {
+        gap: 0px;
+    }
+
+    @media (max-width: 580px) {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1px;
+    }
+
+    p.maintitle {
+        font-size: 2.1rem;
+        font-weight: 800;
+    }
+
+    p.title {
+        font-size: 1.6rem;
+        font-weight: 400;
+        padding-left: 10px;
+
+        @media (max-width: 602px) {
+            font-size: 1.3rem;
+        }
+    }
+
+    a.subtext {
+        font-size: 1.3rem;
+        color: darkgrey;
+        cursor: pointer;
+
+        @media (max-width: 602px) {
+            font-size: 1rem;
+            padding-left: 10px;
+        }
+
+        &::before {
+            content: attr(pop-text);
+            position: absolute;
+            transform: translateX(80%) translateY(80%);
+            background-color: rgb(29, 29, 29);
+            width: calc(100% - 1rem);
+            max-width: 12rem;
+            text-align: center;
+            border-radius: 7px;
+            box-shadow: 0px 5px 12px rgb(15, 14, 17);
+            display: none;
+
+            @media (max-width: 917px) {
+                transform: translateX(50%) translateY(80%);
+            }
+
+            @media (max-width: 602px) {
+                max-width: 10rem;
+            }  
+        }
+
+        &:hover::before {
+            display: block;
+        }
+    
+    }
+
+
+}
+
+
+div.discord-button-sec {
+    width: fit-content;
+    margin-left: 24px;
+}
+
+div.contact-discord {
+    display: flex;
+    align-items: center;
+    height: 2.4rem;
+    width: fit-content;
+
+    background-color: rgb(36, 36, 36);
+    gap: 1ch;
+
+
+    margin-block: 21px;
+
+    border-radius: 0.3rem;
+
+    transition: all 0.2s;
+
+    user-select: none;
+
+    img {
+        width: 1.7rem;
+        margin-left: 9px;
+    }
+
+    p.discord-text {
+        font-size: 1.4rem;
+        font-weight: 500;
+        padding-right: 1.3rem;
+    }
+
+    &:hover {
+        background-color: rgb(13, 43, 107);
+
+    }
+
+
+}

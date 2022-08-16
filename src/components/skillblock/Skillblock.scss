@@ -1,0 +1,32 @@
+div.skillblock {
+    display: flex;
+    align-items: center;
+    background-color: #0f0f11;
+
+    border-radius: 16px;
+    gap: 1ch;
+
+    width: 15rem;
+    height: 3.3rem;
+    padding-left: 15px;
+    padding-block: 0.5rem;
+    user-select: none;
+
+    flex-wrap: wrap;
+
+    transition: all 0.2s;
+
+    img {
+        width: 2rem;
+    }
+
+    &:hover {
+        transform: translateY(-7px) ;
+        cursor: pointer;
+        box-shadow: -1px 17px 25px #0e2f7269;
+    }
+    
+    @media (max-width: 250px) {
+        height: fit-content;
+    }
+}
