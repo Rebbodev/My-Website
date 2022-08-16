@@ -33,7 +33,7 @@ function App() {
 
 
       <div className='skills'>
-        <p className='text'>Development Tools</p>
+        <p className='text'>Work Experience</p>
         <div className='skillblocks'>
           {skills.map(({ name, image, imageAlt }) => (
             <Skillblock name={name} image={image} imageAlt={imageAlt} />
