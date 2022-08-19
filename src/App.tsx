@@ -7,6 +7,7 @@ import { skills } from './data/skills'
 import { Skillblock } from './components/skillblock/Skillblock'
 import Contact from './components/contacts/contacts'
 import Footer from './components/footer/Footer'
+import Discord from './components/discord/Discord'
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
         </div>
       </div>
 
+      <Discord />
       <Contact />
 
       <div className="preFooter" />

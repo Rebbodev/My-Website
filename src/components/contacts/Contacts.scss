@@ -3,7 +3,7 @@ div.contacts {
     width: calc(100% - 7rem);
     max-width: 930px;
     margin-inline: auto;
-    margin-top: 7rem;
+    margin-top: 3.2rem;
 
 }
 
@@ -16,7 +16,6 @@ div.contactbox {
     background-color: rgb(20, 20, 20);
     gap: calc(100% - 33rem);
 
-    margin-top: 4rem;
 
     transition: all 0.4s;
 
@@ -26,6 +25,7 @@ div.contactbox {
 
     @media (max-width: 774px) {
         flex-direction: column-reverse;
+        width: fit-content
     }
 
 

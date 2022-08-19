@@ -1,39 +1,3 @@
-// <div className='skillblock'>
-// <img src={bashPf} alt="bash.png" />
-// <p>Bash</p>
-// </div>
-// <div className='skillblock'>
-// <img src={typescriptPf} alt="ts.png" />
-// <p>Typescript</p>
-// </div>
-// <div className='skillblock'>
-// <img src={javascriptPf} alt="js.png" />
-// <p>Javascript</p>
-// </div>
-// <div className='skillblock'>
-// <img src={nodejsPf} alt="nodejs.png" />
-// <p>Node</p>
-// </div>
-// <div className='skillblock'>
-// <img src={reactPf} alt="react.png" />
-// <p>React</p>
-// </div>
-// <div className='skillblock'>
-// <img src={githubPf} alt="git.png" />
-// <p>Git</p>
-// </div>
-// <div className='skillblock'>
-// <img src={dockerPf} alt="docker.png" />
-// <p>Docker</p>
-// </div>
-// <div className='skillblock'>
-// <img src={mysqlPf} alt="mysql.png" />
-// <p>MySQL</p>
-// </div>
-// <div className='skillblock'>
-// <img src={scyllaPf} alt="scylla.png" />
-// <p>Scylla</p>
-// </div>
 
 import bashPf from '../assets/bash.png'
 import typescriptPf from '../assets/typescript.png'
